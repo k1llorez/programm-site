@@ -1,0 +1,268 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+
+/**
+ * Другие стили
+ */
+.navbar {
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+.navbar .container{
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar-menu{
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.navbar-menu li{
+	display: inline-block;
+}
+.navbar-menu li a{
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.07s ease-in-out;
+}
+.navbar-menu li a:hover{
+	opacity: 1;
+}
+.navbar-wrap{
+	display: flex;
+	flex-flow: row nowrap;
+}
+.callback{
+	margin-left: 30px;
+	padding: 10px 30px;
+	background-color: coral;
+	border-radius: 100px;
+	color: #fff;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+	transition: all .1s ease-in-out;
+}
+.callback:hover{
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 9px 9px rgba(255, 127, 80, 5);
+}
+.navbar-brand{
+	font-weight: 700px;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+	transition: all 0.07s ease-in-out;
+}
+.navbar-brand:hover{
+	color: coral;
+}
+.text{
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 20px;
+}
+.text1{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+}
+.text2{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.text3{
+	text-align: left;
+	font-size: 18px;
+}
+.основа{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.text4{
+	padding-top: 10px;
+	font-size: 15px;
+}
+.text5{
+	padding-top: 20px;
+	font-size: 30px;
+}
+.text6{
+	padding-top: 10px;
+	font-size: 15px;
+}
+.text7{
+	padding-top: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+.text8{
+	font-size: 15px;
+	padding-top: 10px;
+	text-align: center;
+}
+.text9{
+	text-align: left;
+	padding-top: 10px;
+	font-size: 15px;
+}
+.text0{
+	padding-top: 40px;
+	font-size: 15px;
+	text-align: center;
+}
+.text10{
+	font-size: 30px;
+	padding-top: 30px;
+	text-align: center;
+}
+.text11{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 15px;
+}
+.text12{
+	padding-top: 15px;
+	text-align: left;
+	font-size: 15px;
+}
+.text13{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+.text14{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+.text15{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 25px;
+}
+.text16{
+	font-size: 15px;
+	text-align: center;
+	padding-top: 10px;
+}
+.text17{
+	text-align: left;
+	font-size: 15px;
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+
+.about{
+	padding-top: 20px;
+	text-align: center;
+}
+.about-info{
+	text-align: center;
+	padding-top: 20px;
+}
+.background{
+	background-color: rgb(206,206,206);
+}
+.products{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 15px;
+}
+.prod{
+	font-size: 40px;
+	padding-top: 20px;
+	text-align: center;
+}
+.background2{
+	background-color: rgb(206,206,206);
+}
+.background1{
+	background-color: rgb(206,206,206);
+}
+.card-title{ 
+    margin-top: 15px; 
+} 
+.card-text{ 
+    margin-top: 10px; 
+} 
+ 
+.response { 
+    float: left; 
+    width: 100%; 
+    font-size: 15px;
+    .card-header>img{ 
+        width: 30px; 
+        float: left; 
+        margin-right: 10px; 
+        border-radius: 100px; 
+    } 
+} 
+.span{ 
+    font-style: oblique;
+
+    } 
+    .text { 
+        text-align: center; 
+    } 
+    .card{ 
+        background: rgb(245, 238, 224); 
+        width: 300px; 
+        margin: 3em; 
+        display: inline-block;
+    }
+.text22{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+.CPU{
+	padding-top: 250px;
+	padding-right: 20px;
+}
+.Body{
+	padding-left: 20px;
+}
+.ThermalCompound2{
+	padding-top: 90px;
+	padding-right: 20px;
+}
+.price{
+	font-size: 20px;
+}
+.background3{
+	background-color: rgb(206,206,206);
+}
+.response{
+	background-color: rgb(234, 214, 185);
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+}
+.card{
+	font-size: 15px;
+}
